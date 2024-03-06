@@ -1,4 +1,4 @@
-# Portfólio Hello, Welcome to my first portfolio project.
+# Hello, Welcome to my first portfolio project.
 
 ![image](https://github.com/danyellekriner/portifolio/assets/82597105/744a2357-e1aa-498e-a9c1-85c0d1bb2f8f)
 
