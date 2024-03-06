@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/123.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    box-sizing: border-box;
+    color: #F6F6F6;
+}
+.header{
+    padding: 0%;
+}
+.header__menu{
+    display: flex;
+    gap: 20px;
+    background-color: #22D4FD;
+    height: 70px;
+    align-items: center;
+}
+.header__menu__link{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #22D4FD;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__menu__link:hover{
+    background-color: #272727;
+}
+
+.presentation{
+    padding: 4% 0% 8% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.presentation__content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.presentation__content__title{
+    font-size: 2.18rem;
+    font-family: 'Krona One', sans-serif;
+    width: 70%;    
+}
+.title__contrast{
+    color: #22D4FD;
+    align-items: center;
+}
+
+.presentation__content__texto{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    width: 60%;
+    padding: 2%;
+}
+
+.title__contrast__paragraph{
+    color: #22D4FD;
+    align-items: center;
+    font-size: 2.18rem;
+    width: 80%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.presentation__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding-right: 9%;
+    padding-top: 3%;
+}
+.presentation__links__subtitle{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.presentation__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #22D4FD;
+    width: 90%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+.presentation__links__link:hover{
+    background-color: #272727;
+}
+.presentation__about{
+    padding: 7% 22% 12% 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4%;
+}
+.presentation__content__title__about{
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    color: #22D4FD;
+    padding-right: 10%;  
+}
+.presentation__content__texto__about{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    padding: 3%;
+}
+.presentation__photo{
+    height: 80%;
+    width: 60%;
+    border: 2px solid #22D4FD;
+    border-radius: 2%;
+    padding-right: 2%;
+}
+.photo{
+    width: 100%;
+}
+
+.presentation__resume{
+    padding: 4% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.presentation__content__resume{
+    align-items: center;
+    gap: 50px;
+}
+.presentation__content__title__resume1{
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    color: #22D4FD;
+    text-align: center;
+}
+.presentation__content__title__resume{
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    color: #22D4FD;
+    text-align: center;
+    padding: 3% 0% 0% 0%;
+}
+.presentation__content__subtitle__resume{
+    font-family: 'Krona One', sans-serif;
+    color:#22D4FD;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 3% 0% 0% 0%;
+}
+.presentation__content__texto__resume{
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+}
+.footer{
+    color: #F6F6F6;
+    background-color: #22D4FD;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+@media (max-width: 1200px){
+    .header__menu{
+        justify-content: center;
+    }
+    .presentation{
+        padding: 3%;
+    }
+    .presentation__content{
+        width: auto;
+    }
+    .presentation__content__title{
+        width: auto;
+        padding-left: 15%;
+    }
+    .presentation__content__texto{
+        width: 70%;
+    }
+    .presentation__links{
+        padding-left: 5%;
+    }
+    .presentation__about{
+        flex-direction: column-reverse;
+    }
+    .presentation__content__title__about{
+        padding-top: 10%;
+    }
+    .presentation__about{
+        padding: 12%;
+    }
+    .presentation__content__texto__about{
+        padding-left: 10%;
+    }
+    .presentation__resume{
+        padding: 3%;
+    }
+    .presentation__content__resume{
+        width: auto;
+    }
+}
+
+@media (max-width: 620px){
+    .header__menu{
+        justify-content: center;
+    }
+    .presentation{
+        padding: 5%;
+    }
+    .header__menu__link{
+        padding: 1%;
+    }
+      .presentation__content__title{
+        width: auto;
+        padding-left:4%;
+    }
+    .presentation__content__texto{
+        width: 90%;
+    }
+    .presentation__content__texto__about{
+        padding-left: 0%;
+    }
+    .presentation__resume{
+        padding-left: 6%;
+    }
+    .presentation__content__title__resume1{
+        padding: 3%;
+    }
+    .presentation__content__title__resume{
+        padding: 3% 3% 3% 32%;
+    }
+    .presentation__content__texto__resume{
+        padding: 2%;
+    }
+}
+
+@media (max-width: 420px){
+    .presentation{
+        padding: 7% 4%;
+    }
+    .header__menu{
+        padding: 1%;
+    }
+    .header__menu__link{
+        padding: 1%;
+        font-size: medium;
+    }
+    .presentation__content__title{
+        padding-left: 10%;
+    }
+    .presentation__content__texto{
+        width: 90%;
+    }
+    .presentation__links__subtitle{
+        text-align: center;
+    }
+    .presentation__about{
+        padding: 10% 7%;
+    }
+    .presentation__content__texto__about{
+        padding-left: 8%;
+    }
+    .presentation__resume{
+        padding: 10% 4%;
+    }
+    .presentation__content__title__resume1{
+        text-align: center;
+    }
+    .presentation__content__title__resume{
+        padding: 3%;
+        text-align: center;
+    }
+    .presentation__content__texto__resume{
+        padding: 2%;
+        width: auto;
+    }
+}
